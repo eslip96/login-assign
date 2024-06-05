@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login||Page</title>
+  </head>
+  <script
+    src="https://kit.fontawesome.com/ef39a3e865.js"
+    crossorigin="anonymous"
+  ></script>
+
+  <link rel="stylesheet" href="/styles/main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+    rel="stylesheet"
+  />
+  <body>
+    <div class="main-page-container">
+      <div class="nav-bar-container">
+        <i class="fa-solid fa-cow"></i>
+      </div>
+      <div class="body-wrapper">
+        <div class="hero-container">
+          <img src="/images/Screen Shot 2024-02-29 at 2.02.21 PM.png" />
+        </div>
+        <div class="login-container">
+          <div class="login-wrapper">
+            <form action="https://httpbin.org/post" method="post">
+              <h2>Login</h2>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="email"
+                required
+              />
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="password"
+                required
+              />
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
